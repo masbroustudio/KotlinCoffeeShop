@@ -10,8 +10,8 @@ android {
 
     defaultConfig {
         applicationId = "com.yudhae.submissionkokas"
-        minSdk = 30
-        targetSdk = 33
+        minSdk = 26
+        targetSdk = 30
         versionCode = 1
         versionName = "1.0"
 

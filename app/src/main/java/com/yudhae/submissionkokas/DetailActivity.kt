@@ -1,13 +1,12 @@
 package com.yudhae.submissionkokas
 
 import android.content.Intent
-import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 
 class DetailActivity : AppCompatActivity() {
@@ -62,7 +61,7 @@ class DetailActivity : AppCompatActivity() {
 
                 val shareIntent = Intent()
                 shareIntent.action = Intent.ACTION_SEND
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "Check this, the best coffee our recommendation:")
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "Kunjungi kami di : https://www.instagram.com/kokaskopilikasi/?igshid=YmMyMTA2M2Y%3D")
                 shareIntent.putExtra(Intent.EXTRA_TITLE, "KOKAS (KOPILIKASI)")
                 shareIntent.type = "text/plain"
                 startActivity(Intent.createChooser(shareIntent, "Share To:"))
