@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_character_splash"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="32dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/background_kokas_01"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:src="@tools:sample/avatars" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_character_main"
+            android:layout_width="125dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="32dp"
+            android:scaleType="centerCrop"
+            app:civ_border_color="@color/colorSoftDark"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/text_character_name"
+            app:layout_constraintEnd_toEndOf="@+id/img_character_splash"
+            app:layout_constraintStart_toStartOf="@+id/img_character_splash"
+            app:layout_constraintTop_toTopOf="@+id/img_character_splash"
+            app:layout_constraintVertical_bias="1.0"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/text_character_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="@string/nama_item_menu"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/included_info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_character_splash" />
+
+        <include
+            android:id="@+id/included_info"
+            layout="@layout/layout_detail_itemmenu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="64dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_character_name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

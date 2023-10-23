@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">SubmissionKokas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kokas (Kopilikasi)</string>
+    <string name="nav_header_subtitle">+628772210948</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="store_info_detail">Opsi layanan:\n Makan di tempat · Drive-through · Pesan antar\n
+        Alamat: Jalan Baru, Blk. Sawah, Kec. Kota Sigli, Kabupaten Pidie, Aceh 24114\n
+        Jam Buka : 08.00 WIB\n
+        Tutup pukul 01.00\n
+        Telepon: 0877-7221-0948\n</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_nav_minuman">Menu Minuman</string>
+    <string name="menu_nav_loginregister">Login/Register</string>
+    <string name="menu_list">List</string>
+    <string name="menu_grid">Grid</string>
+    <string name="call_us">Hubungi Kami</string>
+    <string name="contact_us_phone">+6287772210948</string>
+
+    <string name="nama_menu">Nama Menu</string>
+    <string name="menu_description">Deskripsi</string>
+    <string name="nama_item_menu">Pilihan Menu</string>
+    <string name="info_check_internet">ATTENTION !!, this app using connection internet. please activate.</string>
+    <string name="info_check_connection">Info Check Connection</string>
+    <string name="menu_header_info">Menu Header Info</string>
+    <string name="menu_header_user">Menu Header User</string>
+    <string name="btn_ok">Ok</string>
+    <string name="menu_kopi">Menu Minuman</string>
+    <string name="menu_minuman">Menu Minuman</string>
+    <string name="menu_makanan">Menu Makanan</string>
+    <string name="menu_login_register">Login/Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="info_register">Belum punya akun, daftar disini (Click)</string>
+    <string name="register">Register</string>
+    <string name="create_by">Yudha Elfransyah</string>
+    <string name="create_by_email">yudhae@gmail.com</string>
+    <string name="create_by_info">https://www.dicoding.com/users/yudhae/academies</string>
+    <string name="create_by_github">https://github.com/masbroustudio</string>
+    <string name="onpgress_menu_makanan">Maaf, Halaman Menu Makanan Belum Tersedia.</string>
+
+
+    <string-array name="menu_coffee">
+        <item>Black</item>
+        <item>Latte</item>
+        <item>Cappuccino</item>
+        <item>Americano</item>
+        <item>Espresso</item>
+        <item>Doppio</item>
+        <item>Macchiato</item>
+        <item>Affogato</item>
+        <item>Cortado</item>
+        <item>Red Eye</item>
+    </string-array>
+
+    <string-array name="menu_coffee_desc">
+        <item>Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir.</item>
+        <item>As the most popular coffee drink out there, the latte is comprised of a shot of espresso and steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice.</item>
+        <item>Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.</item>
+        <item>With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water.</item>
+        <item>An espresso shot can be served solo or used as the foundation of most coffee drinks, like lattes and macchiatos.</item>
+        <item>A double shot of espresso, the doppio is perfect for putting extra pep in your step.</item>
+        <item>The macchiato is another espresso-based drink that has a small amount of foam on top. It’s the happy medium between a cappuccino and a doppio.</item>
+        <item>The affogato is an excuse to enjoy a scoop of ice cream any time of day (and any time of year in my opinion). Served with a scoop of ice cream and a shot of espresso, or two.</item>
+        <item>Like yin and yang, a cortado is the perfect balance of espresso and warm steamed milk. The milk is used to cut back on the espresso’s acidity.</item>
+        <item>Named after those pesky midnight flights, a red eye can cure any tiresome morning. A full cup of hot coffee with an espresso shot mixed in, this will definitely get your heart racing.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/640px-A_small_cup_of_coffee.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg/509px-Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/e/ed/Wet_Cappuccino_with_heart_latte_art.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg/1280px-Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doppio.jpg/2560px-Doppio.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/0/07/Caff%C3%A8_Espresso_Macchiato_Schiumato.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/1/17/Vinoteca%2C_Smithfield%2C_London_%284485849609%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/1/16/Caf%C3%A9Cortado%28Tallat%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/f7/Linea_doubleespresso.jpg</item>
+    </string-array>
+</resources>

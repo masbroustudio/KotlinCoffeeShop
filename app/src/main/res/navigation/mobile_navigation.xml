@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.yudhae.submissionkokas.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_minuman"
+        android:name="com.yudhae.submissionkokas.ui.minuman.MinumanFragment"
+        android:label="@string/menu_nav_minuman"
+        tools:layout="@layout/fragment_minuman" />
+
+    <fragment
+        android:id="@+id/nav_makanan"
+        android:name="com.yudhae.submissionkokas.ui.makanan.MakananFragment"
+        android:label="@string/menu_makanan"
+        tools:layout="@layout/fragment_makanan" />
+
+    <fragment
+        android:id="@+id/nav_login_register"
+        android:name="com.yudhae.submissionkokas.ui.loginregister.LoginRegisterFragment"
+        android:label="@string/menu_nav_loginregister"
+        tools:layout="@layout/fragment_login_register" />
+</navigation>
